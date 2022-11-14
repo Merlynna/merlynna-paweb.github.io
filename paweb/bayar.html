@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Form Pemesanan Makanan</title>
+<link rel="stylesheet" href="css/transaksi.css" type="text/css" />
+<link rel="shortcut icon" href="sushi/logo.png" />
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+
+<header>
+<a href="indeks.html"><logo><img src="sushi/logo.png"/ height=80px width=80px></logo></a>
+<judul>Form Pemesanan Alat Musik Berbasis JavaScript</judul>
+</header>
+
+<section>
+<form name="pemesanan" action="#">
+<table cellpadding=3 border=1>
+<tr>
+<th width=30>No.</th>
+<th width=280>Alat Musik</th>
+<th width=120>Harga</th>
+<th width=200>Jumlah Pesanan</th>
+</tr>
+
+<tr>
+<td> 1.</td>
+<td> Gendang</td>
+<td>@   Rp. <input type="text" name="harga1" value="40000" size=5 readonly></td>
+<td><center><input type="text" name="jumlah2" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td> 2.</td>
+<td> Suling </td>
+<td>@   Rp. <input type="text" name="harga2" value="45000" size=5 readonly></td>
+<td><center><input type="text" name="jumlah2" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td> 3.</td>
+<td> Rebana </td>
+<td>@   Rp. <input type="text" name="harga3" value="35000" size=5 readonly></td>
+<td><center><input type="text" name="jumlah3" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td> 4.</td>
+<td> Gamelan </td>
+<td>@   Rp. <input type="text" name="harga4" value="500000" size=5 readonly></td>
+<td><center><input type="text" name="jumlah4" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td> 5.</td>
+<td> Piano </td>
+<td>@   Rp. <input type="text" name="harga5" value="840000" size=5 readonly></td>
+<td><center><input type="text" name="jumlah5" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td colspan=3 align="right">JUMLAH TOTAL</td>
+<td><center>Rp. <input type="text" name="total" size=8 style="text-align:center" readonly></center></td>
+</td>
+
+<tr>
+<td colspan=3 align="right">DISKON</td>
+<td><center>Rp. <input type="text" name="potongan" size=8 style="text-align:center" readonly></center></td>
+</td>
+
+<tr>
+<td colspan=3 align="right">JUMLAH BAYAR</td>
+<td><center>Rp. <input type="text" name="bayar" size=8 style="text-align:center" readonly></center></td>
+</td>
+
+</table>
+<br />
+<center><input type="button" value="BATAL" onclick="batal()" /></center>
+</form>
+</section>
+
+<footer>&copy; Symphony Music </footer>
+</body>
+</html>

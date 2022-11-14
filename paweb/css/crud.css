@@ -1,0 +1,173 @@
+* {
+     font-family: "Garamond";
+     margin: 0 auto;
+}
+
+body {
+     background-color: lightyellow;
+}
+
+.container {
+     margin: auto;
+     margin-top: 70px;
+     width: 70%;
+}
+
+.panel {
+     border: 1px solid orangered;
+     box-shadow: 0 0 20px black;
+}
+
+.title {
+     font-family: "BerkshireSwash-Regular";
+     padding: 10px 0;
+     font-weight: bold;
+     text-align: center;
+     font-size: 45px;
+     border-bottom: 3px solid oldlace;
+     background-color: lightsalmon;
+     color: black;
+}
+
+.tabel1 {
+     width: 50%;
+     float: left;
+}
+
+.tabel2 {
+     width: 50%;
+     float: right;
+}
+
+.form {
+     background-color: orangered;
+     padding: 20px 7px 7px 7px;
+     color: black;
+     height: 500px;
+}
+
+.kolomlabel {
+     margin: 0px 10px;
+     padding: 5px 10px;
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.kolomcontrol {
+     margin: 0p 20px;
+     margin-bottom: 20px;
+     padding: 5px;
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.nama,
+.jumlah,
+.kode,
+.harga {
+     margin: 0px 10px;
+     padding: 5px 10px;
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.bersih {
+     clear: both;
+}
+
+.textboxOUT {
+     font-size: 18px;
+     width: 100%;
+     height: 35px;
+     border-radius: 5px;
+     padding-left: 5px;
+     padding: 3px 0px 0px 10px;
+     color: black;
+     background-color: rgb(255, 231, 152);
+     border:  1px solid black;
+     box-shadow: inset 2px 2px 2px white, 2px 2px 5px white;
+}
+
+.textboxc,
+.textboxp,
+.textboxt,
+.textboxn {
+     font-size: 18px;
+     width: 100%;
+     height: 35px;
+     border-radius: 5px;
+     padding-left: 5px;
+     padding: 3px 0px 0px 10px;
+     color: black;
+     background-color: orange;
+     box-shadow: inset 2px 2px 2px white, 2px 2px 5px white;
+}
+
+.textboxc,
+.textboxp,
+.textboxt,
+.textboxn {
+     border: 2px solid black;
+}
+
+.combobox {
+     font-size: 20px;
+     height: 40px;
+     border-radius: 7px;
+     border: 1px solid orangered;
+     box-shadow: inset 2px 2px 2px white, 2px 2px 5px white;
+     padding: 4px;
+     color: black;
+     background-color: lightyellow;
+}
+
+.buttonn {
+     width: 100%;
+     height: 60px;
+}
+
+.buttonCP {
+     margin: 5px 20px;
+}
+
+.pay {
+     font-size: 25px;
+     font-weight: bold;
+     border-radius: 5px;
+     border: 2px solid orange;
+     padding: 10px 40px;
+     background-color: lightyellow;
+     box-shadow: inset 0 0 2px black;
+     color: orangered;
+     float: right;
+     margin-left: 20px;
+}
+
+.pay:hover {
+     background-color: lightsalmon;
+     color: black;
+     border: 1px white solid;
+     box-shadow: inset 0 0 15px lemonchiffon;
+     cursor: pointer;
+}
+
+.cancel {
+     font-size: 25px;
+     font-weight: bold;
+     border-radius: 5px;
+     border: 2px solid khaki;
+     padding: 10px 40px;
+     background-color: lemonchiffon;
+     box-shadow: inset 0 0 2px black;
+     color: white;
+     float: right;
+     margin-left: 20px;
+}
+
+.cancel:hover {
+     background: khaki;
+     color: white;
+     border: 1px solid white;
+     box-shadow: inset 0 0 15px gold;
+     cursor: pointer;
+}

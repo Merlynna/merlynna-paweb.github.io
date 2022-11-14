@@ -1,0 +1,49 @@
+body {
+     margin: 50px auto;
+     width: 700px;
+     height: 500px;
+     background-color: lightyellow;
+     }
+     
+     header,section,footer,logo {
+     display: block;
+     }
+     
+     header {
+     height: 100px;
+     background-color: lightsalmon;
+     text-align: center;
+     }
+     
+     logo{
+     float: left;
+     height: 80px;
+     width: 80px;
+     margin: 10px 10px 10px 50px;
+     border: 1px solid black;
+     }
+     
+     judul {
+     font-family: crackman;
+     font-size: 20px;
+     color: white;
+     font-weight: bold;
+     float: left;
+     margin: 50px 10px 10px 10px;
+     }
+     
+     section {
+     height: 350px;
+     background-color: khaki;
+     padding: 10px;
+     }
+     
+     footer {
+     clear: both;
+     height: 20px;
+     background-color: lightsalmon;
+     text-align: center;
+     color: white;
+     font-family: "Garamond";
+     font-size: 14px;
+     }

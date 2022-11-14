@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title> CRUD Pembelian | Symphony Music </title>
+     <link rel="stylesheet" href="css/crud.css">
+</head>
+<body>
+     <!-- Pengguna -->
+     <div class="container">
+          <div class="panel">
+               <div class="title"> THE GREATEST LOVE OF ALL </div>
+               <div class="form">
+
+                    <div class="tabel1">
+                         <!-- GREATEST CODING -->
+                         <div class="kode" id="kode"> Kode Barang </div>
+                         <div class="kolomcontrol"><input id="code" type="text" class="textboxc" autofocus="atuofocus"></div>
+                         <div class="bersih"></div>
+
+                         <!-- GREATEST PRICES -->
+                         <div class="harga" id="harga"> Harga </div>
+                         <div class="kolomcontrol"><input id="price" type="text" class="textboxp" value="0"></div>
+                         <div class="bersih"></div>
+
+                         <!-- SUB TOTAL -->
+                         <div class="kolomlabel"> Sub Total </div>
+                         <div class="kolomcontrol"><input id="sub" type="text" class="textboxOUT" value="Rp. 0,-" disabled></div>
+                         <div class="bersih"></div>
+
+                         <div class="kolomlabel"> Nilai Diskon </div>
+                         <div class="kolomcontrol"><input id="nDiscount" type="text" class="textboxOUT" value="Rp. 0,-" disabled></div>
+                         <div class="bersih"></div>                         
+                    </div>
+
+                    <div class="tabel2">
+                         <!-- GREATEST NAME -->
+                         <div class="nama" id="nama"> Nama Barang </div>
+                         <div class="kolomcontrol"><input id="name" type="text" class="textboxn" autofocus="atuofocus"></div>
+                         <div class="bersih"></div>
+
+                         <!-- TOTAL -->
+                         <div class="jumlah" id="jumlah"> Jumlah Jual </div>
+                         <div class="kolomcontrol"><input id="total" type="text" class="textboxt" value="0"></div>
+                         <div class="bersih"></div>
+
+                         <!-- DISKON -->
+                         <div class="kolomlabel"> Total Bayar </div>
+                         <div class="kolomcontrol"><input id="discount" type="text" class="textboxOUT" value="Rp. 0%" disabled></div>
+                         <div class="bersih"></div>
+
+                         <!-- BAYAR -->
+                         <div class="kolomlabel"> Total Bayar  </div>
+                         <div class="kolomcontrol"><input id="pay" type="text" class="textboxOUT" value="Rp. 0,-" disabled></div>
+                         <div class="bersih"></div>
+                    </div>
+                    
+                    <div class="bersih"></div>
+                    <div class="buttonn">
+                         <!-- CANCELED -->
+                         <div class="buttonCP">
+                              <button id="cancel" onclick="window.location.reload()" class="cancel" title="click for cancel">
+                                   <i class="fa-solid fa-ban"></i>
+                                   Batal
+                              </button>
+                         </div>
+                    </div>
+
+                    <!-- BAYAR -->
+                    <div class="buttonCP">
+                         <button id="payment" onclick="payment()" class="pay" title="click for pay">
+                              <i class="fa-solid fa-money-check"></i>
+                              Bayar 
+                         </button>
+                    </div>
+               </div>
+               <h6 align="center" style="font-family: Georgia, 'Times New Roman', Times, serif"> by GROUP SYMPHONY MUSIC INSTRUMENTAL </h6>
+          </div>
+     </div>
+
+     <script src="js/crud.js"></script>
+</body>
+</html>
